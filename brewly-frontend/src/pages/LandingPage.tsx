@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import coffeeTest from '../assets/images/coffee-test.jpg';
 
 const coffeeImages = [
@@ -11,6 +12,9 @@ const coffeeImages = [
     return (
       <div style={styles.container}>
         <h2 style={styles.title}>Welcome to the Coffee Lovers' Hub</h2>
+        <Link to="/posts">
+        <button>View Posts</button>
+        </Link>
         <div style={styles.imageGrid}>
         <img src={coffeeTest} alt="newest coffee"></img>
         <img src="../assets/images/coffee-test.jpg" alt="newest coffee different"></img>

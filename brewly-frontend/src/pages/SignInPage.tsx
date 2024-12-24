@@ -3,7 +3,7 @@ const SignInPage = () => {
       <div style={styles.container}>
         <h2 style={styles.title}>Sign In</h2>
         <form style={styles.form}>
-          <input type="email" placeholder="Email" style={styles.input} />
+          <input type="text" placeholder="Username" style={styles.input} />
           <input type="password" placeholder="Password" style={styles.input} />
           <button type="submit" style={styles.button}>Sign In</button>
         </form>
